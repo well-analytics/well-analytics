@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://well-analytics.github.io/",
+  "homepage": "https://well-analytics.github.io/well-analytics/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
