@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://kirill-antonovich.github.io/well_analytics",
+  "homepage": "http://well-analytics.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
