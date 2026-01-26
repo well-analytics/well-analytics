@@ -1,10 +1,10 @@
 import { useState } from "react";
-import FileUpload from "./components/FileUpload";
+import FileUpload from "./components/FileUpload.jsx";
 import "./App.css";
-import PlotTIFamily from "./components/PlotTIFamily";
-import NavigationBar from "./components/NavigationBar";
-import PlotInput from "./components/PlotInput";
-import DownloadButton from "./components/DownloadButton";
+import PlotTIFamily from "./components/PlotTIFamily.jsx";
+import NavigationBar from "./components/NavigationBar.jsx";
+import PlotInput from "./components/PlotInput.jsx";
+import DownloadButton from "./components/DownloadButton.jsx";
 
 function App() {
   const [resultData, setResultData] = useState(null);

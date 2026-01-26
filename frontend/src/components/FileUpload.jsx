@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import api from "../api";
+import api from "../api.js";
 import demo from "../data/demo.json"
 
 export default function TwoFileUploadButtons({ uploadUrl, onSuccess, onError }) {
