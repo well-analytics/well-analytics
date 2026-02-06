@@ -60,7 +60,7 @@ export default function TwoFileUploadButtons({ uploadUrl, onSuccess, onError }) 
         className="hidden"
         onChange={(e) => setFileB(e.target.files?.[0] || null)}
       />
-
+      <p><i>i</i></p>
       <button
         type="button"
         onClick={() => inputARef.current?.click()}

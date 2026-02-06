@@ -52,7 +52,7 @@ function App() {
                   <div className="flex justify-end">
                     <DownloadButton
                       data={resultData.loglog_normalized}
-                      text="Download Pressure and Rate Data"
+                      text="Download Pressure and Derivative Data"
                       CSVGenerator="loglog"
                     />
                   </div>
