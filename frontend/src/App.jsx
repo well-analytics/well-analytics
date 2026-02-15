@@ -7,13 +7,14 @@ import "./App.css";
 
 function App() {
   const [resultData, setResultData] = useState(null);
+  const [showLoglog, setShowLoglog] = useState(false);
 
   return (
     <div>
       <NavigationBar />
-      <UploadSection onUploadSuccess={setResultData} />
+      <UploadSection onUploadSuccess={setResultData} setShowLoglog={setShowLoglog} />
       <TutorialSection resultData={resultData} />
-      <AnalysisSection resultData={resultData} />
+      <AnalysisSection resultData={resultData} showLoglog={showLoglog} setShowLoglog={setShowLoglog} />
     </div>
   );
 }

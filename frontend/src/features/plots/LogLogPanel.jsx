@@ -3,9 +3,7 @@ import PlotTIFamily from "./PlotTIFamily.jsx";
 import DownloadButton from "../../components/DownloadButton.jsx";
 import { COLORS } from "../../constants/colors";
 
-function LogLogPanel({ resultData }) {
-	const [showLoglog, setShowLoglog] = useState(false);
-
+function LogLogPanel({ resultData, showLoglog, setShowLoglog }) {
 	if (!resultData) return null;
 
 	return (
