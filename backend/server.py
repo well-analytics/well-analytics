@@ -13,6 +13,7 @@ origins = [
     "https://localhost.tiangolo.com",
     "http://localhost",
     "http://localhost:5173",
+    "https://well-analytics.github.io/well-analytics/",
 ]
 
 app.add_middleware(
